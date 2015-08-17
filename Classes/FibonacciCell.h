@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FibonacciCell.h
 //  TestProject
 //
 //  Created by Bitcats on 13/08/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FibonacciCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *fibLabel;
 
 @end
-
